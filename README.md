@@ -55,3 +55,7 @@ Writes in cell of address *address code of sign read with function getchar() fro
 
 *  Write "address ^"  
 Writes, with function putchar() from C language, sign of code **address.
+
+## Compiling
+
+gcc -std=c11 -pedantic -Wall -Wextra -Werror main.c -o main
